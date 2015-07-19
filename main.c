@@ -22,6 +22,7 @@ void hello_world() {
 
 TASK(OSEK_Main_Task) {
 	while (1) {
+		rotate();
 		hello_world();
 		int Helligkeit;
 		/* 500msec wait */
